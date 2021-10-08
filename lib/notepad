@@ -1,0 +1,30 @@
+TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.add_shopping_cart_outlined),
+                        label: Text('E-Shopping'),
+                      ),
+                      TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.receipt_long_outlined),
+                        label: Text('Bill Payment'),
+                      ),
+                      TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.favorite_border_outlined),
+                        label: Text('Charity'),
+                      ),
+                      TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.card_giftcard_outlined),
+                        label: Text('Send Gift'),
+                      ),
+                      TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.broken_image_outlined),
+                        label: Text('Split Bills'),
+                      ),
+                      TextButton.icon(
+                        onPressed: () => debugPrint('FlatButton di tekan'),
+                        icon: Icon(Icons.monetization_on_outlined),
+                        label: Text('Cash Back'),
+                      ),
