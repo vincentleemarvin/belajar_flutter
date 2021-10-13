@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/monitor/MineMonitor.dart';
 import 'package:belajar_flutter/mockup/screen/HomeScreen.dart';
 import 'package:belajar_flutter/mockup/screen/SplashScreen.dart';
 import 'package:belajar_flutter/screens/home/home_screen.dart';
@@ -13,8 +14,8 @@ class RouteGenerator {
     // final args = settings.arguments;
 
     switch (settings.name) {
-      case '/':
-        return MaterialPageRoute(builder: (_) => HomePage());
+      // case '/':
+      //   return MaterialPageRoute(builder: (_) => HomePage());
       case '/about':
         return MaterialPageRoute(builder: (_) => AboutPage());
       case '/baru':
@@ -25,6 +26,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => Mockup());
       case '/product':
         return MaterialPageRoute(builder: (_) => HomeScreen());
+      case '/':
+        return MaterialPageRoute(builder: (_) => MineMon());
 
       //mo88i
       case '/mo88i':
