@@ -24,7 +24,7 @@ class _MineMonState extends State<MineMon> {
       body: screen[selectedIndex],
       bottomNavigationBar: CurvedNavigationBar(
           color: contColor,
-          backgroundColor: bgColor,
+          backgroundColor: cont2Color,
           buttonBackgroundColor: hovColor,
           height: 55,
           index: selectedIndex,
